@@ -1,0 +1,24 @@
+{
+  "categories": [
+    { "id": "cspm", "name": "CSPM Executive Dashboard", "tab": "CSPM", "widgets": [
+      { "id": "w1", "name": "Cloud Accounts", "type": "donut", "text": "Cloud accounts overview", "center": 2, "visible": true,
+        "data": [ { "label": "Connected", "value": 2, "color": "#4f7cf7" }, { "label": "Not Connected", "value": 2, "color": "#dbe4fb" } ] },
+      { "id": "w2", "name": "Cloud Account Risk Assessment", "type": "donut", "text": "Risk assessment overview", "center": 9659, "visible": true,
+        "data": [ { "label": "Failed", "value": 1689, "color": "#c62828" }, { "label": "Warning", "value": 681, "color": "#f6c32b" }, { "label": "Not available", "value": 36, "color": "#b8bcc6" }, { "label": "Passed", "value": 7253, "color": "#1e9e5a" } ] }
+    ]},
+    { "id": "cwpp", "name": "CWPP Dashboard", "tab": "CWPP", "widgets": [
+      { "id": "w3", "name": "Top 5 Namespace Specific Alerts", "type": "empty", "text": "No Graph data available!", "visible": true },
+      { "id": "w4", "name": "Workload Alerts", "type": "empty", "text": "No Graph data available!", "visible": true }
+    ]},
+    { "id": "image", "name": "Registry Scan", "tab": "Image", "widgets": [
+      { "id": "w5", "name": "Image Risk Assessment", "type": "bar", "text": "Vulnerabilities by severity", "totalLabel": "Total Vulnerabilities", "visible": true,
+        "data": [ { "label": "Critical", "value": 9, "color": "#7b0f0f" }, { "label": "High", "value": 150, "color": "#d32f2f" }, { "label": "Medium", "value": 850, "color": "#ef8f35" }, { "label": "Low", "value": 450, "color": "#f6c344" }, { "label": "Unknown", "value": 11, "color": "#b0b0b0" } ] },
+      { "id": "w6", "name": "Image Security Issues", "type": "bar", "text": "Images by severity", "totalLabel": "Total Images", "total": 2, "visible": true,
+        "data": [ { "label": "Critical", "value": 2, "color": "#7b0f0f" }, { "label": "High", "value": 2, "color": "#d32f2f" }, { "label": "Medium", "value": 2, "color": "#ef8f35" }, { "label": "Low", "value": 1, "color": "#f6c344" }, { "label": "Unknown", "value": 1, "color": "#b0b0b0" } ] }
+    ]},
+    { "id": "ticket", "name": "Ticket Overview", "tab": "Ticket", "widgets": [
+      { "id": "w7", "name": "Open Tickets", "type": "text", "text": "12 open tickets across all teams.", "visible": false },
+      { "id": "w8", "name": "Resolved This Week", "type": "text", "text": "34 tickets resolved in the last 7 days.", "visible": false }
+    ]}
+  ]
+}
